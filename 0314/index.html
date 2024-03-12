@@ -34,5 +34,19 @@
     <img id="img1" src="static/head1.png" style=" height: 200px;" />
     <img id="img2" src="static/a.svg" style=" height: 200px;" />
     <img id="img3" src="static/b.svg" style=" height: 200px;" />
+
+    <input type="text" />
+    <button id ="btn1"class="btn btn-primary">Change</button>
+
+    <script>
+        "use script";
+        let btn = document.querySelector("#btn1");
+
+        function btnClicked()
+        {
+            alert("Button click!");
+        }
+        btn.addEventListener("click", btnClicked);
+    </script>
 </body>
 </html>
